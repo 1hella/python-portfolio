@@ -1,0 +1,6 @@
+title;description;url;image
+Todo App; A todo app created entirely in Python using the Streamlit library; https://github.com/1hella/python-todo-app;photo.jpg
+Portfolio Website; A portfolio website created in Python using the Streamlit Library; https://github.com/1hella/python-portfolio;photo.jpg
+Job Application Tracker App; A tracker for job applications created in Python using the PySimpleGUI library; https://github.com/1hella/JobApplicationTracker;photo.jpg
+House Manager App; A game to open and close a door in a house and manage the temperature using a thermostat; https://github.com/1hella/HomeOwner;photo.jpg
+Company Website; A website to showcase a business, including a contact form; https://github.com/1hella/company-website;photo.jpg
