@@ -1,5 +1,5 @@
 title;description;url;image
-Todo App; A todo app created entirely in Python using the Streamlit library; https://github.com/1hella/python-todo-app;photo1.png
+Todo App; A todo app created entirely in Python using the Streamlit library; https://github.com/1hella/python-todo-apps;photo1.png
 Portfolio Website; A portfolio website created in Python using the Streamlit Library; https://github.com/1hella/python-portfolio;photo3.png
 Job Application Tracker App; A tracker for job applications created in Python using the PySimpleGUI library; https://github.com/1hella/JobApplicationTracker;photo4.png
 House Manager Web App; A web app to open and close a door in a house and manage the temperature using a thermostat; https://github.com/1hella/HomeOwner;photo5.jpg
@@ -7,3 +7,4 @@ Company Website; A website to showcase a business, including a contact form; htt
 PDF Generation Script; A script to generate a PDF file for a notebook based on a CSV file; https://github.com/1hella/PDF_Generation;photo6.jpg
 Text to PDF Conversion Script; A script to convert text into PDF; https://github.com/1hella/TextToPDF;photo7.jpg
 PDF Invoice Generator Script; A script to convert Excel files into PDF invoices; https://github.com/1hella/PDFInvoiceGenerator;photo8.jpg
+NASA Picture of the Day Website; A website to display the NASA Picture of the Day with title and description; https://github.com/1hella/Picture-Of-The-Day;photo9.jpg
