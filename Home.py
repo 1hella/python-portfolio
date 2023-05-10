@@ -11,11 +11,11 @@ with col1:
 
 with col2:
     st.title("Stephen Wanhella")
-    content="""
-    Hi, I'm Stephen! I'm a software developer specializing in Python and Android Development. 
-    I graduated in 2021 with a Bachelor of Science in Computer Science from Simon Fraser University in British Columbia, Canada.
-    I have worked with several companies including Elastic Path and HiringBranch (formerly LearningBranch), working on ECommerce and Learning 
-    Management solutions.
+    content = """
+    Hi, I'm Stephen! I'm a software engineer specializing in Python and Web Development. 
+    I graduated from Simon Fraser University in 2021 with a Bachelor of Science degree majoring in Computer Science.
+    I have worked for several companies including Elastic Path and LearningBranch (now HiringBranch) on ECommerce and 
+    Learning platforms.
     """
     st.info(content)
 

@@ -2,14 +2,15 @@ title;description;url;image
 Todo App; A todo app created entirely in Python using the Streamlit library; https://github.com/1hella/python-todo-apps;photo1.png
 Portfolio Website; A portfolio website created in Python using the Streamlit Library; https://github.com/1hella/python-portfolio;photo3.png
 Job Application Tracker App; A tracker for job applications created in Python using the PySimpleGUI library; https://github.com/1hella/JobApplicationTracker;photo4.png
-House Manager Web App; A web app to open and close a door in a house and manage the temperature using a thermostat; https://github.com/1hella/HomeOwner;photo5.jpg
+House Manager Web App; A web app to open and close a door in a house and manage the temperature using a thermostat; https://github.com/1hella/HomeOwner;photo5.png
 Company Website; A website to showcase a business, including a contact form; https://github.com/1hella/company-website;photo2.png
-PDF Generation Script; A script to generate a PDF file for a notebook based on a CSV file; https://github.com/1hella/PDF_Generation;photo6.jpg
-Text to PDF Conversion Script; A script to convert text into PDF; https://github.com/1hella/TextToPDF;photo7.jpg
-PDF Invoice Generator Script; A script to convert Excel files into PDF invoices; https://github.com/1hella/PDFInvoiceGenerator;photo8.jpg
-NASA Picture of the Day Website; A website to display the NASA Picture of the Day with title and description; https://github.com/1hella/Picture-Of-The-Day;photo9.jpg
-Weather API; An API to return the weather for a given day at any station; https://github.com/1hella/weather-api;photo10.png
+PDF Generation Script; A script to generate a PDF file for a notebook based on a CSV file; https://github.com/1hella/PDF_Generation;photo6.png
+Text to PDF Conversion Script; A script to convert text into PDF; https://github.com/1hella/TextToPDF;photo7.png
+PDF Invoice Generator Script; A script to convert Excel files into PDF invoices; https://github.com/1hella/PDFInvoiceGenerator;photo8.png
+NASA Picture of the Day Website; A website to display the NASA Picture of the Day with title and description; https://github.com/1hella/Picture-Of-The-Day;photo9.png
+Weather API; An app built with Flask which return the weather for a given day at any station in Europe; https://github.com/1hella/weather-api;photo10.png
 Forecast Data App; An app to show the forecast for the next upcoming days; https://github.com/1hella/weather-forecast-data-app;photo12.png
 Happiness Data App; An app to show the relationship between generosity, happiness, and GPD between countries; https://github.com/1hella/happiness-data-app;photo11.png
 Book Analysis Notebook; A Jupyter Notebook to analyse a book and finds the most used words and performs sentiment analysis; https://github.com/1hella/book-analysis;photo13.png
 Diary Tone Analyzer App; An app to analyse the tone of diary entries using NLP and plot the positivity and negativity of each entry; https://github.com/1hella/mood-diary;photo14.png
+Webcam Object Detection App; An app that uses the webcam to spot when a new person enters the shop and sends an email with a picture of the new customer;https://github.com/1hella/webcam-object-detection;photo15.png
