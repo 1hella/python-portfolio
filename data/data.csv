@@ -14,3 +14,5 @@ Happiness Data App; An app to show the relationship between generosity, happines
 Book Analysis Notebook; A Jupyter Notebook to analyse a book and finds the most used words and performs sentiment analysis; https://github.com/1hella/book-analysis;photo13.png
 Diary Tone Analyzer App; An app to analyse the tone of diary entries using NLP and plot the positivity and negativity of each entry; https://github.com/1hella/mood-diary;photo14.png
 Webcam Object Detection App; An app that uses the webcam to spot when a new person enters the shop and sends an email with a picture of the new customer;https://github.com/1hella/webcam-object-detection;photo15.png
+Webcam Overlap Appy; A Streamlit app that uses the webcam and overlays the day of the week and time on it;https://github.com/1hella/Webcam_Timestamp;photo16.png
+Concert Tour Web Scraping App; A web scraping app that monitors a website for new tour announcements;https://github.com/1hella/python-scraping-tours-sql;photo17.png
