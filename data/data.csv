@@ -15,5 +15,5 @@ Book Analysis Notebook; A Jupyter Notebook to analyse a book, find the most used
 Diary Tone Analyzer App; An app to analyse the tone of diary entries using NLP and plot the positivity and negativity of each entry.; https://github.com/1hella/mood-diary;photo14.png
 Webcam Object Detection App; An app that uses the webcam to spot when a new person enters the shop and sends an email with a picture of the new customer.;https://github.com/1hella/webcam-object-detection;photo15.png
 Webcam Overlap App; A Streamlit app that uses the webcam and overlays the day of the week and time on it.;https://github.com/1hella/Webcam_Timestamp;photo16.png
-Concert Tour Web Scraping App; A web scraping app that monitors a website for new tour announcements and stores the announcements in a database.;https://github.com/1hella/python-scraping-tours-sql;photo17.png
+Concert Tour Web Scraping App; A web scraping app that monitors a website for new tour announcements and stores the announcements in a database.;https://github.com/1hella/python-web-scraping-sql-oop;photo17.png
 Web Temperature Scraping App; A web scraping app that logs the average world temperatures over time in a database and plots it in a Streamlit app.;https://github.com/1hella/web-temperature-scraping;photo18.png
