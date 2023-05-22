@@ -14,8 +14,8 @@ with col2:
     content = """
     Hi, I'm Stephen! I'm a software engineer specializing in Python and Web Development. 
     I graduated from Simon Fraser University in 2021 with a Bachelor of Science degree majoring in Computer Science.
-    I have worked for several companies including Elastic Path and LearningBranch (now HiringBranch) on ECommerce and 
-    Learning platforms.
+    I have worked for companies including Elastic Path and LearningBranch (now HiringBranch) on ECommerce and 
+    Learning and assessment platforms.
     """
     st.info(content)
 
