@@ -2,7 +2,7 @@ import streamlit as st
 import pandas
 import math
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Stephen Wanhella's Portfolio")
 
 col1, col2 = st.columns(2)
 
@@ -13,9 +13,9 @@ with col2:
     st.title("Stephen Wanhella")
     content = """
     Hi, I'm Stephen! I'm a software engineer specializing in Python and Web Development. 
-    I graduated from Simon Fraser University in 2021 with a Bachelor of Science degree majoring in Computer Science.
+    I graduated from Simon Fraser University in 2021 with a Bachelor of Science in Computer Science.
     I have worked for companies including Elastic Path and LearningBranch (now HiringBranch) on ECommerce and 
-    Learning and assessment platforms.
+    Learning platforms.
     """
     st.info(content)
 
