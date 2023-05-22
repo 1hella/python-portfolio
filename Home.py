@@ -2,7 +2,7 @@ import streamlit as st
 import pandas
 import math
 
-st.set_page_config(layout="wide", page_title="Stephen Wanhella's Portfolio")
+st.set_page_config(layout="wide", page_title="Home • Stephen Wanhella")
 
 col1, col2 = st.columns(2)
 

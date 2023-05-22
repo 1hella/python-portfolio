@@ -2,6 +2,8 @@ import streamlit as st
 
 from send_email import send_email
 
+st.set_page_config(page_title="Contact Me • Stephen Wanhella")
+
 st.title("Contact Me")
 with st.form(key="email_forms", clear_on_submit=True):
     if 'submitted' not in st.session_state:
