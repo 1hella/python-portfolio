@@ -8,7 +8,7 @@ PDF Generation Script; A Python script to generate a PDF file from a CSV file of
 Text to PDF Conversion Script; A Python script to convert text into PDF.; https://github.com/1hella/TextToPDF;photo7.png
 PDF Invoice Generator Script; A Python script to convert Excel files into PDF invoices.; https://github.com/1hella/PDFInvoiceGenerator;photo8.png
 NASA Picture of the Day Website; A website to display the NASA Picture of the Day with title and description.; https://github.com/1hella/Picture-Of-The-Day;photo9.png
-Weather API; An app built with Flask which return the weather for a given day at any station in Europe.; https://github.com/1hella/weather-api;photo10.png
+Weather API; An app built with Flask and SQLite which returns the average temperature for any day at stations across Europe.; https://github.com/1hella/weather-api;photo10.png
 Forecast Data App; A Streamlit app to show the forecast for the upcoming days.; https://github.com/1hella/weather-forecast-data-app;photo12.png
 Happiness Data App; A Streamlit app to show the relationship between generosity, happiness, and GDP between countries.; https://github.com/1hella/happiness-data-app;photo11.png
 Book Analysis Notebook; A Jupyter Notebook to analyse a book, find the most used words, and perform sentiment analysis.; https://github.com/1hella/book-analysis;photo13.png
