@@ -18,3 +18,4 @@ Webcam Overlap App; A Streamlit app that uses the webcam and overlays the day of
 Concert Tour Web Scraping App; A web scraping app that monitors a website for new tour announcements and stores the announcements in a database.;https://github.com/1hella/python-web-scraping-sql-oop;photo17.png
 Web Temperature Scraping App; A web scraping app that logs the average world temperatures over time in a database and plots it in a Streamlit app.;https://github.com/1hella/web-temperature-scraping;photo18.png
 Hotel Booking App; A Python app for booking a hotel using object-oriented programming.;https://github.com/1hella/python-hotel-booking;photo19.png
+Article Purchasing App; A Python app for purchasing an article using object-oriented programming.;https://github.com/1hella/python-article-purchasing;photo20.png
