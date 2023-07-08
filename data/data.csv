@@ -20,3 +20,4 @@ Web Temperature Scraping App; A web scraping app that logs the average world tem
 Hotel Booking App; A Python app for booking a hotel using object-oriented programming.;https://github.com/1hella/python-hotel-booking;photo19.png
 Article Purchasing App; A Python app for purchasing an article using object-oriented programming.;https://github.com/1hella/python-article-purchasing;photo20.png
 Speed Calculator App; A Python app created using PyQt6 to calculate the average speed given distance and time.;https://github.com/1hella/PythonSpeedCalculator;photo21.png
+Job Application App; A Python and Flask web app which accepts a job application form, saves it to a database, and emails the user.;https://github.com/1hella/Flask-Job-Application-Form;photo22.png
