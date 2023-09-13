@@ -12,14 +12,14 @@ with col1:
 with col2:
     st.title("Stephen Wanhella")
     content = """
-    Hi, I'm Stephen! I'm a software engineer specializing in Python, Mobile, and Web Development. 
+    Hi, I'm Stephen! I'm a software engineer with an interest in game development, experienced with games, web apps, and mobile apps. 
     I graduated from Simon Fraser University in 2021 with a Bachelor of Science in Computer Science.
     I have worked for companies including Elastic Path and LearningBranch (now HiringBranch) on ECommerce and 
     Learning platforms.
     """
     st.info(content)
 
-st.write("Below you can find some of the apps I have built in Python. Feel free to contact me!")
+st.write("Below you can find some of the apps I have built. Feel free to contact me!")
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
@@ -30,11 +30,21 @@ with col3:
         st.header(row['title'])
         st.write(row['description'])
         st.image('images/' + row['image'])
-        st.write(f"[Source Code]({row['url']})")
+        url = row['url']
+        if "github" in url:
+            text = "Source Code"
+        else:
+            text = "Link"
+        st.write(f"[{text}]({url})")
 
 with col4:
     for index, row in df[math.ceil(len(df)/2):].iterrows():
         st.header(row['title'])
         st.write(row['description'])
         st.image('images/' + row['image'])
-        st.write(f"[Source Code]({row['url']})")
+        url = row['url']
+        if "github" in url:
+            text = "Source Code"
+        else:
+            text = "Link"
+        st.write(f"[{text}]({url})")
