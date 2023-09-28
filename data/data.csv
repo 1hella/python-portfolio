@@ -1,9 +1,6 @@
 title;description;url;image
-Todo App; A highly-interactive Python application developed using the Streamlit library, providing a user-friendly interface for task management.; https://github.com/1hella/python-todo-apps;photo1.png
 Portfolio Website; A dynamic, self-designed website created with Python and Streamlit Library, hosted on AWS and featuring seamless CI/CD integration through GitHub Actions.; https://github.com/1hella/python-portfolio;photo3.png
 Company Website; A professional business website featuring a contact form and a showcase of products/services, implemented for enhanced customer interaction and engagement.; https://github.com/1hella/company-website;photo2.png
-PDF Generation Script; A Python-powered script for generating study topics in PDF format from CSV files, facilitating effective study and content organization.; https://github.com/1hella/PDF_Generation;photo6.png
-Text to PDF Conversion Script; An efficient Python script devised to convert plain text into PDF format, ensuring easy document management and distribution.; https://github.com/1hella/TextToPDF;photo7.png
 PDF Invoice Generator Script; A Python application that translates Excel files into clear, well-formatted PDF invoices, expediting business billing processes.; https://github.com/1hella/PDFInvoiceGenerator;photo8.png
 NASA Picture of the Day Website; A visually-striking website built to display NASA's daily featured images with comprehensive title and description details.; https://github.com/1hella/Picture-Of-The-Day;photo9.png
 Weather API; A Flask and SQLite-based application that provides average temperature data for any given day at various European weather stations.; https://github.com/1hella/weather-api;photo10.png
@@ -12,12 +9,6 @@ Happiness Data App; An insightful data visualization application, utilizing Stre
 Book Analysis Jupyter Notebook; A Jupyter Notebook application that performs in-depth analysis of a given book, identifying the most used words and conducting sentiment analysis.; https://github.com/1hella/book-analysis;photo13.png
 Diary Tone Analyzer App;  An advanced application designed to analyze the tone of diary entries using NLP, and plot the positivity and negativity trends of each entry over time.; https://github.com/1hella/mood-diary;photo14.png
 Webcam Object Detection App; An intelligent object detection application that uses webcam input to identify new shop visitors and sends an email notification with their picture.;https://github.com/1hella/webcam-object-detection;photo15.png
-Webcam Overlap App; An interactive Streamlit application that utilizes webcam feed to overlay real-time information such as the day of the week and current time.;https://github.com/1hella/Webcam_Timestamp;photo16.png
-Concert Tour Web Scraping App; A web scraping tool designed to monitor specific websites for new concert tour announcements, storing gathered information in a dedicated database.;https://github.com/1hella/python-web-scraping-sql-oop;photo17.png
-Web Temperature Scraping App; A sophisticated web scraping application that consistently logs average world temperatures over time, visualizing the data through a Streamlit interface.;https://github.com/1hella/web-temperature-scraping;photo18.png
-Hotel Booking App; An object-oriented Python application enabling streamlined hotel booking processes, demonstrating effective use of OOP principles.;https://github.com/1hella/python-hotel-booking;photo19.png
-Article Purchasing App; A Python-based application implementing object-oriented programming to enable hassle-free article purchases.;https://github.com/1hella/python-article-purchasing;photo20.png
-Speed Calculator App; A utility application created using PyQt6 to calculate average speed based on user-provided distance and time inputs.;https://github.com/1hella/PythonSpeedCalculator;photo21.png
 Job Application Web App; A web application powered by Python and Django, designed to process job application forms, store information in a database, and allow admins to easily view the data on the admin panel.;https://github.com/1hella/Django-Job-Application-Form;photo22.png
 Restaurant Menu Web App; A Django web application which powers a restaurant menu showcasing different categories of foods and their availabilities.;https://github.com/1hella/django-restaurant-menu;photo23.png
 GPT Chatbot App; A PyQT6 application powered by OpenAI's ChatGPT language model, allowing for asynchronous chat between user and bot; https://github.com/1hella/Chatbot-GPT-GUI;photo24.png
