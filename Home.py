@@ -12,10 +12,10 @@ with col1:
 with col2:
     st.title("Stephen Wanhella")
     content = """
-    Hi, I'm Stephen! I'm a software engineer with an interest in Python, Machine Learning, and Data Science. 
+    Hi, I'm Stephen! I'm a software engineer with an interest in Python. 
     I graduated from Simon Fraser University in 2021 with a Bachelor of Science in Computer Science.
     I have worked for companies including Elastic Path and HiringBranch on ECommerce and 
-    Learning platforms. I have experience with Java, JavaScript, Python, and much more.
+    Learning platforms. I have experience with Java, JavaScript, Python, and more.
     """
     st.info(content)
 
