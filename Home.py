@@ -25,16 +25,21 @@ col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 df = pandas.read_csv('data/data.csv', sep=';')
 
+
+def get_url_text(url):
+    if "github" or "codepen" in url:
+        return "Source Code"
+    else:
+        return "Link"
+
+
 with col3:
     for index, row in df[0:math.ceil(len(df)/2)].iterrows():
         st.header(row['title'])
         st.write(row['description'])
         st.image('images/' + row['image'])
         url = row['url']
-        if "github" in url:
-            text = "Source Code"
-        else:
-            text = "Link"
+        text = get_url_text(url)
         st.write(f"[{text}]({url})")
 
 with col4:
@@ -43,8 +48,5 @@ with col4:
         st.write(row['description'])
         st.image('images/' + row['image'])
         url = row['url']
-        if "github" in url:
-            text = "Source Code"
-        else:
-            text = "Link"
+        text = get_url_text(url)
         st.write(f"[{text}]({url})")
