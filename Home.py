@@ -11,7 +11,6 @@ from url_to_link import get_url_text
 st.set_page_config(layout="wide", page_title="Home • Stephen Wanhella")
 
 load_dotenv()
-st.info(os.getenv("FIRESTORE_KEY_URL"))
 with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
                                firestore_key_file=os.getenv("FIRESTORE_KEY_URL"), firestore_collection_name="home"):
     col1, col2 = st.columns(2)
