@@ -10,8 +10,7 @@ st.set_page_config(page_title="Contact Me • Stephen Wanhella")
 
 load_dotenv()
 
-with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
-                               firestore_key_file=os.getenv("FIRESTORE_KEY_URL"), firestore_collection_name="contact"):
+with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD')):
     st.title("Contact Me")
     with st.form(key="email_forms", clear_on_submit=True):
         if 'submitted' not in st.session_state:
