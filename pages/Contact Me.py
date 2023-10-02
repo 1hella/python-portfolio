@@ -11,8 +11,7 @@ st.set_page_config(page_title="Contact Me • Stephen Wanhella")
 load_dotenv()
 
 with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
-                               firestore_key_file=os.getenv("FIRESTORE_KEY_URL"),
-                               firestore_collection_name="contact"):
+                               firestore_key_file=os.getenv("FIRESTORE_KEY_URL"), firestore_collection_name="contact"):
     st.title("Contact Me")
     with st.form(key="email_forms", clear_on_submit=True):
         if 'submitted' not in st.session_state:
@@ -28,7 +27,8 @@ with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
                                       else "")
         email_error_message = st.empty()
         message = st.text_area("Your message", key="message",
-                               value=st.session_state['message'] if "message" in st.session_state and not st.session_state[
+                               value=st.session_state['message'] if "message" in st.session_state and not
+                               st.session_state[
                                    'submitted'] else "")
         message_error_message = st.empty()
         submit = st.form_submit_button("Submit")
