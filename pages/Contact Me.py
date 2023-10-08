@@ -3,14 +3,16 @@ import os
 import streamlit as st
 import streamlit_analytics
 
+from config_manager import ConfigManager
 from send_email import send_email
 from dotenv import load_dotenv
 
 st.set_page_config(page_title="Contact Me • Stephen Wanhella")
 
 load_dotenv()
-
-with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD')):
+config_file = ConfigManager.get_config_file()
+with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
+                               firestore_key_file=config_file, firestore_collection_name="contact"):
     st.title("Contact Me")
     with st.form(key="email_forms", clear_on_submit=True):
         if 'submitted' not in st.session_state:

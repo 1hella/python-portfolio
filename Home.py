@@ -5,13 +5,16 @@ import pandas
 import streamlit as st
 import streamlit_analytics
 from dotenv import load_dotenv
+from config_manager import ConfigManager
 
 from url_to_link import get_url_text
 
 st.set_page_config(layout="wide", page_title="Home • Stephen Wanhella")
 
 load_dotenv()
-with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD')):
+config_file = ConfigManager.get_config_file()
+with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
+                               firestore_key_file=config_file, firestore_collection_name="home"):
     col1, col2 = st.columns(2)
 
     with col1:
