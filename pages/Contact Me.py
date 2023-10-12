@@ -14,6 +14,13 @@ config_file = ConfigManager.get_config_file()
 with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
                                firestore_key_file=config_file, firestore_collection_name="contact"):
     st.title("Contact Me")
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.write("[LinkedIn](https://linkedin.com/in/swanhella)")
+    with col2:
+        st.write("[GitHub](https://github.com/1hella)")
+
+    st.subheader("Contact Form")
     with st.form(key="email_forms", clear_on_submit=True):
         if 'submitted' not in st.session_state:
             st.session_state['submitted'] = False
