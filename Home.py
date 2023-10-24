@@ -54,4 +54,4 @@ with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
             text = get_url_text(url)
             st.write(f"[{text}]({url})")
 
-    st.write("[Contact me](./Contact_Me)")
+    st.write("[Contact Me](./Contact_Me)")
