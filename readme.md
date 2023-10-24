@@ -1,5 +1,5 @@
 # What is this project?
-This is a web app to showcase Python projects.
+This is a web app to showcase Python projects. See it live on https://wanhella.com.
 
 ## Running
 Run this app using
@@ -8,9 +8,7 @@ Run this app using
 
 ## Unit Tests
 
-Run the unit tests using
-
-`python test.py`
+Run the unit tests using `python test.py`
 
 ## Selenium Tests
 
