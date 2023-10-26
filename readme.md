@@ -1,4 +1,4 @@
-# What is this project?
+# Wanhella.com
 This is a web app to showcase Python projects. See it live on https://wanhella.com.
 
 ## Running
