@@ -21,7 +21,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.11.x'
 
     - name: Install Dependencies
       run: |
@@ -54,16 +54,3 @@ jobs:
     - name: Force deployment
       run: |
        aws ecs update-service --cluster streamlit-portfolio-cluster --service streamlit-portfolio-service --force-new-deployment
-
-    - name: Notify failure via email
-      if: failure()
-      uses: dawidd6/action-send-mail@v3
-      with:
-        server_address: smtp.gmail.com
-        server_port: 465
-        username: ${{ secrets.MAIL_USERNAME }}
-        password: ${{ secrets.MAIL_PASSWORD }}
-        subject: GitHub Actions failed
-        to: stephen.wanhella@gmail.com
-        from: GitHub Action
-        body: Deployment of Streamlit Portfolio has failed. Check the GitHub Actions log.
