@@ -18,15 +18,16 @@ with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("images/photo.png", )
+        st.image("images/photo.jpg", )
 
     with col2:
         st.title("Stephen Wanhella")
         content = """
-        Hi, I'm Stephen! I'm a software engineer with an interest in Python. 
-        I graduated from Simon Fraser University in 2021 with a Bachelor of Science in Computer Science.
-        I have worked for companies including Elastic Path and HiringBranch on ECommerce and 
-        Learning platforms. I have experience with Java, JavaScript, Python, and much more.
+        Hi, I'm Stephen! I'm a software engineer. 
+        I have worked for Elastic Path and HiringBranch on ECommerce and 
+        Learning platforms. I work with Java, JavaScript, SQL, and much more.
+        I graduated from Simon Fraser University in British Columbia in 2021 with a Bachelor of Science in Computer Science.
+        I'm available for hire.
         """
         st.info(content)
 
