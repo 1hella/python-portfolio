@@ -39,7 +39,7 @@ with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
                                st.session_state[
                                    'submitted'] else "")
         message_error_message = st.empty()
-        submit = st.form_submit_button("Submit")
+        submit = st.form_submit_button("Email Me")
         if st.session_state['submitted']:
             st.info("Email sent")
             st.session_state['submitted'] = False
