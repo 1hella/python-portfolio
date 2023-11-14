@@ -25,7 +25,7 @@ with streamlit_analytics.track(unsafe_password=os.getenv('STREAMLIT_PASSWORD'),
         content = """
         Hi, I'm Stephen! I'm a software engineer/tester. 
         I have worked for Elastic Path and HiringBranch on ECommerce and 
-        Learning platforms. I work with Java, JavaScript, SQL, and much more.
+        Learning platforms. I work with Java, JavaScript, SQL, Selenium, and much more.
         I graduated from Simon Fraser University in British Columbia in 2021 with a Bachelor of Science in Computer Science.
         I'm available for hire.
         """
